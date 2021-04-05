@@ -1,0 +1,146 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MarioJimenez\\Destination\\PERSONAL\\TDDKataDNI\\TDDKataDNITest\\TDDKataDNITest.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MarioJimenez\\Destination\\PERSONAL\\TDDKataDNI\\TDDKataDNITest\\TDDKataDNITest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MarioJimenez\\Destination\\PERSONAL\\TDDKataDNI\\TDDKataDNITest\\TDDKataDNITest.csproj",
+        "projectName": "TDDKataDNITest",
+        "projectPath": "C:\\Users\\MarioJimenez\\Destination\\PERSONAL\\TDDKataDNI\\TDDKataDNITest\\TDDKataDNITest.csproj",
+        "packagesPath": "C:\\Users\\MarioJimenez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MarioJimenez\\Destination\\PERSONAL\\TDDKataDNI\\TDDKataDNITest\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MarioJimenez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\MarioJimenez\\Destination\\PERSONAL\\TDDKataDNI\\TDDKataDNI\\TDDKataDNI.csproj": {
+                "projectPath": "C:\\Users\\MarioJimenez\\Destination\\PERSONAL\\TDDKataDNI\\TDDKataDNI\\TDDKataDNI.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MarioJimenez\\Destination\\PERSONAL\\TDDKataDNI\\TDDKataDNI\\TDDKataDNI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MarioJimenez\\Destination\\PERSONAL\\TDDKataDNI\\TDDKataDNI\\TDDKataDNI.csproj",
+        "projectName": "TDDKataDNI",
+        "projectPath": "C:\\Users\\MarioJimenez\\Destination\\PERSONAL\\TDDKataDNI\\TDDKataDNI\\TDDKataDNI.csproj",
+        "packagesPath": "C:\\Users\\MarioJimenez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MarioJimenez\\Destination\\PERSONAL\\TDDKataDNI\\TDDKataDNI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\MarioJimenez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
