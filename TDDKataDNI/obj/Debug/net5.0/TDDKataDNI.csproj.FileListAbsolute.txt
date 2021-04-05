@@ -5,7 +5,6 @@ C:\Users\MarioJimenez\Destination\PERSONAL\TDDKataDNI\TDDKataDNI\bin\Debug\net5.
 C:\Users\MarioJimenez\Destination\PERSONAL\TDDKataDNI\TDDKataDNI\bin\Debug\net5.0\TDDKataDNI.dll
 C:\Users\MarioJimenez\Destination\PERSONAL\TDDKataDNI\TDDKataDNI\bin\Debug\net5.0\ref\TDDKataDNI.dll
 C:\Users\MarioJimenez\Destination\PERSONAL\TDDKataDNI\TDDKataDNI\bin\Debug\net5.0\TDDKataDNI.pdb
-C:\Users\MarioJimenez\Destination\PERSONAL\TDDKataDNI\TDDKataDNI\obj\Debug\net5.0\TDDKataDNI.csprojAssemblyReference.cache
 C:\Users\MarioJimenez\Destination\PERSONAL\TDDKataDNI\TDDKataDNI\obj\Debug\net5.0\TDDKataDNI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\MarioJimenez\Destination\PERSONAL\TDDKataDNI\TDDKataDNI\obj\Debug\net5.0\TDDKataDNI.AssemblyInfoInputs.cache
 C:\Users\MarioJimenez\Destination\PERSONAL\TDDKataDNI\TDDKataDNI\obj\Debug\net5.0\TDDKataDNI.AssemblyInfo.cs
