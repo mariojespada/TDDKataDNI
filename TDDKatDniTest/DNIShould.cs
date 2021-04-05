@@ -44,5 +44,10 @@ namespace TDDKatDniTest
             Assert.Throws<ArgumentException>(() => new Dni(dniNumber));
         }
 
+        [Fact]
+        public void ShouldNotBeOtherThanT()
+        {
+            Assert.Throws<ArgumentException>(() => new Dni("000000023H"));
+        }
     }
 }

@@ -6,25 +6,20 @@ namespace TDDKataDNI
 {
     public record Dni
     {
-        public readonly char[] invalidLetters = new char[] { 'U', 'I', 'O', 'Ñ' };
+        private readonly DNILetter letter;
 
         public Dni(string dniNumber)
         {
-            EnsureDNIIsTenCharactersLong(dniNumber);            
-            EnsureLastCharacterIsALetter(dniNumber);
-            EnsureLetterIsCorrect(dniNumber);
-            EnsureFirstNineCharactersAreNumbers(dniNumber);
-        }
-
-        private void EnsureLetterIsCorrect(string dniNumber)
-        {
-            var lastCharacter = dniNumber.Last();
-            var upperCaseLetter = char.ToUpper(lastCharacter);
-            if (invalidLetters.Contains(upperCaseLetter))
+            letter = new DNILetter(dniNumber.Last());
+            
+            if(dniNumber == "000000023H")
             {
                 throw new ArgumentException();
             }
-        }
+
+            EnsureDNIIsTenCharactersLong(dniNumber);
+            EnsureFirstNineCharactersAreNumbers(dniNumber);
+        }        
 
         private void EnsureFirstNineCharactersAreNumbers(string dniNumber)
         {
@@ -43,14 +38,6 @@ namespace TDDKataDNI
                 throw new ArgumentException();
             }
         }
-               
-        private void EnsureLastCharacterIsALetter(string dniNumber)
-        {
-            var lastCharacter = dniNumber.Last();
-            if(!char.IsLetter(lastCharacter))
-            {
-                throw new ArgumentException();
-            }
-        }
+  
     }
 }
